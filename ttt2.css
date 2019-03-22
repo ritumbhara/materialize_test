@@ -1,0 +1,113 @@
+body {
+  background: url(https://www.google.co.in/search?safe=active&hl=en&authuser=0&tbm=isch&source=hp&biw=&bih=&ei=4ymRXJKdM9Ov8QOwh7ZI&q=background+#)
+    center center fixed;
+  background-color: #ccdffd;
+  background-size: cover;
+}
+
+.container {
+  width: 460px !important;
+  height: 580px;
+  background-color: #ffffff75;
+  border-radius: 25px;
+  margin: 20px auto 0 auto;
+  overflow: hidden;
+}
+
+h1 {
+  color: #c511c5;
+  font-size: 75px;
+  font-weight: 200 !important;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+#playfield {
+  width: 360px;
+  height: 360px;
+  margin: 30px;
+}
+
+.row {
+  margin: 0 !important;
+  /*  padding:0;*/
+  /*  width: 450px;*/
+}
+.box {
+  width: 118px;
+  height: 118px;
+  font-size: 120px;
+  line-height: 120px;
+  font-weight: 100;
+  text-align: center;
+  cursor: pointer;
+}
+
+.X {
+  color: #c51d11;
+}
+
+.O {
+  color: #28f7ff;
+}
+
+.b-bottom {
+  border-bottom: 2px solid #f4f4f4;
+}
+
+.b-right {
+  border-right: 2px solid #f4f4f4;
+}
+
+#controls {
+  /*  color: #2979ff ;*/
+  color: white;
+  /*  background-color:#448aff;*/
+  width: 100%;
+  height: 100%;
+  padding: 20px 0 30px 0;
+}
+
+#xo {
+  border-left: 2px solid #f8dab9;
+  font-size: 20px;
+}
+
+#score-label,
+#play-label {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin: 0 0 10px 0;
+}
+
+.score {
+  /*  padding: 0 5px 0 5px;*/
+  padding: 0;
+  /*  font-size: 20px;*/
+  background-color: #c51162;
+  color: white;
+  border-radius: 5px;
+}
+
+footer {
+  padding: 15px;
+  text-align: center;
+  color: #444;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-image: none;
+  }
+  h1 {
+    font-size: 35px;
+    font-weight: 420;
+  }
+  .container {
+    border-radius: 0;
+  }
+  .score {
+    font-size: 15px;
+  }
+}
